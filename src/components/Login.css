@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Background color for the entire page */
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.2); /* Glass morphism effect */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .dark-mode .container {
+    background: rgba(31, 41, 55, 0.5); /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Header text color */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Label text color */
+  }
+  
+  input,
+  select,
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  button {
+    background: #3498db; /* Default button background color */
+    color: #fff; /* Default button text color */
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .dark-mode button {
+    background: #2c3e50; /* Dark mode button background color */
+    color: #fff; /* Dark mode button text color */
+  }
+  
+  button:hover {
+    background: #2980b9; /* Hovered button background color */
+  }
+  
+  .dark-mode button:hover {
+    background: #34495e; /* Dark mode hovered button background color */
+  }
+  
+  select {
+    width: 100%;
+  }
+  
+  .dark-mode select,
+  .dark-mode input,
+  .dark-mode button {
+    background: rgba(255, 255, 255, 0.2); /* Dark mode glass morphism effect */
+    color: #fff; /* Dark mode input/button text color */
+  }
+  
+  .dark-mode select:hover,
+  .dark-mode input:hover,
+  .dark-mode button:hover {
+    background: rgba(255, 255, 255, 0.3); /* Dark mode hovered glass morphism effect */
+  }
+  
